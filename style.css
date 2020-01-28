@@ -1,0 +1,86 @@
+/*  CSS styling */
+img.a {
+	width: 100%;
+	height: auto;
+	padding: 10px
+}
+
+img.shrink{
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+div.a{
+    background: silver;
+    font-family: Arial;
+    margin: 60px;
+    margin: 30px;
+    padding: 15px;
+}
+#h1a{
+    text-align: center;
+}
+p.a {
+  font-family: Arial;
+  margin: 35px;
+}
+
+h2.a {
+  font-style: italic;
+}
+
+/*Navigation background color*/
+.nav {
+  background: linear-gradient(180deg, #696969 10%, silver 90%);
+  overflow: hidden;
+  position: fixed;
+  top:0px;
+  right:0px;
+  left:0px;
+  z-index:1;
+}
+.nav p{
+    font-family: Bebas Neue, Arial;
+    font-size: 150%;
+    padding: 0;
+    margin-bottom: 0;
+}
+/* boxes around the navigation links */
+.nav a {
+  font-family: Bebas Neue, Arial;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 12px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav img{
+    float: left;
+    height: auto;
+    width: 50px;
+}
+/* mouse hovering color on links */
+.nav a:hover {
+  background-color: #A52A2A;
+  color: black;
+}
+/* current link slected difference in color. */
+.nav a.active {
+  background-color: #A52A2A;
+  color: white;
+}
+
+
+body {
+  background-image: url('abstract-1438438_1280.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+iframe{
+    text-align: center;
+}
